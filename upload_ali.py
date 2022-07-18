@@ -1,8 +1,11 @@
 from aligo import Aligo
 import sys
+import datetime
 import os
 
+now = datetime.datetime.now()
+nowtime = now.strftime("%Y-%m-%d")
+
 if __name__ == '__main__':
-    ali = Aligo(refresh_token=sys.argv[1])
-    list_dir = os.listdir('./Pixiv日榜')
-    ali.upload_folder('./Pixiv日榜/'+list_dir[0],'6200ab97ef91085b6c1148be84ffb83f67f49b19')
+    ali = Aligo(refresh_token='cfda1a0578064e8e914b73618c21f7f8')
+    ali.upload_file('./Pixiv日榜/' + nowtime + '.zip','62d5aa4a830983213e4b4ddcb8e18568ce067140')
