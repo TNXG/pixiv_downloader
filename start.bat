@@ -1,0 +1,2 @@
+cd D:\Download-Pixiv-Ranking
+py pixiv.py 3elxVI7_lk9FYgVQzI6M-62aikSR62KGAgL0qdQte3U 4zp1oq8VjRKP8v80Rt8EbLfRDIkvdbC8uqI7MkNEspI
