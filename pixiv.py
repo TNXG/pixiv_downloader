@@ -147,7 +147,8 @@ def get_filepath(url, illustration, save_path='.', add_user_folder=False, add_ra
 
     filename = url.split('/')[-1]
     if add_rank:
-        filename = f'{illustration.rank} - {filename}'
+        # filename = f'{illustration.rank} - {filename}'
+        filename = f'{filename}'
     filepath = os.path.join(save_path, filename)
     return filename, filepath
 
